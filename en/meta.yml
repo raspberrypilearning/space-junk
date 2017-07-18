@@ -1,17 +1,25 @@
-title: space-junk
+---
 hero_image: images/banner.png
-description: space-junk description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+theme: red
+duration: 1
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, robots, jokes/pranks, space, photography, music/sound, physical computing"
-technologies: "html/css, scratch, electronics, physical computing, python"
-site_areas:
+title: Space Junk
+description: Help the Scratch mascot avoid the space junk and return safely back to
+  Earth!
+original_url: https://codeclubprojects.org/en-GB/scratch/space-junk
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+- title: Introduction
+- title: Controlling the cat
+- title: 'Challenge: More movement'
+- title: Space junk!
+- title: 'Challenge: Changing your planet''s orbit'
+- title: Getting back to Earth
+- title: 'Challenge: More space junk'
+- title: 'Challenge: 2 players'
+
