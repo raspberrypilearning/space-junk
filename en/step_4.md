@@ -10,7 +10,7 @@ Let's add some space junk for the cat to avoid.
 
 + Add this code to make the planet move around the stage forever:
 
-	```scratch
+	```blocks
 	when flag clicked
 	forever
 		move (2) steps
