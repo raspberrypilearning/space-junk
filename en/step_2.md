@@ -22,7 +22,7 @@ Let's allow the player to control the cat with the arrow keys.
 
 	Click on your cat sprite, and add the following code:
 
-	```scratch
+	```blocks
 	when [left arrow v] key pressed?
 	change x by (-10)
 	```
@@ -35,7 +35,7 @@ Let's allow the player to control the cat with the arrow keys.
 
 + To move the cat upwards when the up arrow key is pressed, you'll need to add some more code:
 
-	```scratch
+	```blocks
 	when [up arrow v] key pressed?
 	change y by (10)
 	```
