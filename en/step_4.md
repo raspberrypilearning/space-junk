@@ -22,13 +22,13 @@ Let's add some space junk for the cat to avoid.
 
 	Have you noticed that your planet turns upside-down (rotates) when it hits the edge of the screen? To fix this, just add this code to your planet sprite:
 
-	```scratch
+	```blocks
 	set rotation style [don't rotate v]
 	```
 
 + The game should end when the planet touches the cat, so let's add this code __inside__ the planet's `forever`{:class="blockcontrol"} loop:
 
-	```scratch
+	```blocks
 	if <touching [Cat1 v]?> then
 		stop [all v]
 	end
@@ -36,7 +36,7 @@ Let's add some space junk for the cat to avoid.
 
 	Here's how your planet's code should look:
 
-	```scratch
+	```blocks
 	when flag clicked
 	forever
 		move (2) steps
