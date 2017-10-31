@@ -10,7 +10,7 @@ Can you avoid the space junk for 30 seconds, and get back to Earth safely?
 
 + Add this code to your Earth sprite, so that it starts off very small and slowly get's bigger and bigger:
 
-	```scratch
+	```blocks
 	when flag clicked
 	set size to (10) %
 	forever
@@ -32,7 +32,7 @@ Can you avoid the space junk for 30 seconds, and get back to Earth safely?
 
 + Add this code to your stage, so that the timer counts up forever:
 
-	```scratch
+	```blocks
 	when flag clicked
 	forever
 		wait (0.1) secs
@@ -50,7 +50,7 @@ Can you avoid the space junk for 30 seconds, and get back to Earth safely?
 
 	Click on your cat sprite, and add this script:
 
-	```scratch
+	```blocks
 	when flag clicked
 	set [time v] to [0]
 	wait until <(time) > [30]>
